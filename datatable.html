@@ -1,0 +1,1256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Data Table</title>
+    <!-- CSS only -->
+    <link href="css/bootstrap-4.5.2.css" rel="stylesheet" type="text/css">
+	<link href="css/bootstrap-rtl.css" rel="stylesheet" type="text/css">
+    <link href="css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+	<link href="css/custom-table.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+
+	    
+</head>
+
+<body class="rtl">
+<div class="container">
+<p align="center"><font size="5" color="#42c2a1">جدول بيانات عربي من اليمين الى اليسار</font></p>
+    <table id="example" class="table table-striped table-bordered table-hover" style="width:100%">
+        <thead class="thead_dark">
+            <tr >
+                <th align="center">الاسم</th>
+                <th align="center">العمر</th>
+                <th align="center">الدولة</th>
+                <th align="center">المهنة</th>
+                <th align="center">الراتب</th>
+                <th align="center">تعديل/حذف</th>
+            </tr>
+        </thead>
+        <tbody>
+		    <tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+           <tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد الهوبي</td>
+                <td align="center">30</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس برمجيات</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>خالد شمعون</td>
+                <td align="center">29</td>
+                <td align="center">الاردن</td>
+                <td align="center">ضابط امن</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سالم العدل</td>
+                <td align="center">28</td>
+                <td align="center">مصر</td>
+                <td align="center">مرشد سياحي</td>
+                <td align="center">2000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>مؤمن غطاس</td>
+                <td align="center">29</td>
+                <td align="center">فلسطين</td>
+                <td align="center">مهندس</td>
+                <td align="center">1800$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد عادل</td>
+                <td align="center">28</td>
+                <td align="center">الجزائر</td>
+                <td align="center">طيار</td>
+                <td align="center">1900$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>احمد السلوت</td>
+                <td align="center">37</td>
+                <td align="center">لبنان</td>
+                <td align="center">رجل اعمال</td>
+                <td align="center">4000$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمود يوسف</td>
+                <td align="center">40</td>
+                <td align="center">المغرب</td>
+                <td align="center">مهندس مدني</td>
+                <td align="center">6000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>محمد حنون</td>
+                <td align="center">18</td>
+                <td align="center">السودان</td>
+                <td align="center">عامل</td>
+                <td align="center">800$</td>
+                <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>يحيى ابو غالي</td>
+                <td align="center">22</td>
+                <td align="center">مصر</td>
+                <td align="center">سائق</td>
+                <td align="center">1200$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			<tr>
+                <td>سعيد العلي</td>
+                <td align="center">28</td>
+                <td align="center">سوريا</td>
+                <td align="center">خباز</td>
+                <td align="center">5000$</td>
+               <td align="center"><a href="#"><i class="fas fa-edit" style="color: #42c2a1;"></i></a>&nbsp&nbsp<a href="#"><i class="fas fa-trash-alt" style="color: #42c2a1;"></i></a> </td>
+            </tr>
+			
+        </tbody>
+        <tfoot class="thead_dark">
+            <tr>
+                <th>الاسم</th>
+                <th>العمر</th>
+                <th>الدولة</th>
+                <th>المهنة</th>
+                <th>الراتب</th>
+                <th>تعديل/حذف</th>
+            </tr>
+        </tfoot>
+    </table>
+ </div>  
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#example').DataTable();
+} );
+    </script>
+</body>
+</html>
